@@ -1,0 +1,5 @@
+参考链接：http://www.macrozheng.com/#/architect/mall_arch_04
+
+1 生成用户角色表和角色权限等表映射的实体类、xml和mapper接口
+2 除了自动生成的mapper接口以外，添加一个查询用户对应角色的列表dao，因为这个是多表联合，自动生成器只能生成单表逻辑，不能自动生成
+    修改 UmsAdminRoleRelationDao.xml 对应sql具体查询的库和表的逻辑
